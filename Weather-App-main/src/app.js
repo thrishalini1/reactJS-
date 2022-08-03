@@ -50,20 +50,20 @@ app.get('', (req, res) => {
     //res.render('index') 
      res.render('index', {
          title: 'Weather',
-         name: 'Mohit'        
+         name: 'Thrisha'        
      })
 })
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About me',
-        name: 'Mohit'       
+        name: 'Thrisha'       
     })
 })
 app.get('/help', (req, res) => {
     res.render('help', {
         helpText: 'This is some helpful text',
         title: 'Help',
-        name: 'Mohit'
+        name: 'Thrisha'
     })
 })
 
